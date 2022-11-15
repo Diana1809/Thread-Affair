@@ -51,7 +51,53 @@
     grid-area: contact;
   }
 
+  .footer-contact {
+    display: grid;
+    margin-left: 90px;
+  }
+
+  .footer-contact h1 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .footer-contact h1 span {
+    font-weight: 500;
+  }
+
+  .footer-contact p {
+    text-transform: initial;
+  }
+
+  .footer-contact a[href^='tel:'] {
+    display: block;
+  }
+
+  .footer-contact a[href^='mailto:'] {
+    color: #ff6b6b;
+  }
+
   .footer-support {
     grid-area: support;
+  }
+
+  .footer-support {
+    display: grid;
+  }
+
+  .footer-support li {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .footer-support li:nth-child(2) {
+    margin: 0 16px;
+  }
+
+  .footer-support i[class*='fa-'] {
+    color: #ff6b6b;
+    font-size: 28px;
+    display: block;
+    margin-bottom: 4px;
   }
 }
