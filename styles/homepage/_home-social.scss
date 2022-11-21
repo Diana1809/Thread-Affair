@@ -1,0 +1,19 @@
+.home-social ul {
+  text-align: center;
+}
+
+.home-social li {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.home-social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border: 3px solid $gray-primary;
+  border-radius: 50%;
+  font-size: 32px;
+}

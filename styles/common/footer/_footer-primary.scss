@@ -47,13 +47,10 @@
     }
   }
 
-  .footer-contact {
-    grid-area: contact;
-  }
-
-  .footer-contact {
-    display: grid;
-    margin-left: 90px;
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
   }
 
   .footer-contact h1 {
@@ -75,14 +72,6 @@
 
   .footer-contact a[href^='mailto:'] {
     color: #ff6b6b;
-  }
-
-  .footer-support {
-    grid-area: support;
-  }
-
-  .footer-support {
-    display: grid;
   }
 
   .footer-support li {

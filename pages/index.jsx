@@ -5,6 +5,7 @@ import HomeCatalogPreview from '../components/homepage/HomeCatalogPreview';
 import HomeNewsletter from '../components/homepage/HomeNewsletter';
 import HomePayment from '../components/homepage/HomePayment';
 import Link from 'next/link';
+import HomeSocial from '../components/homepage/HomeSocial';
 
 export default function Home() {
   return (
@@ -49,6 +50,8 @@ export default function Home() {
           <BsCatalogPreview></BsCatalogPreview>
 
           <HomePayment></HomePayment>
+
+          <HomeSocial></HomeSocial>
 
           <HomeNewsletter></HomeNewsletter>
         </div>

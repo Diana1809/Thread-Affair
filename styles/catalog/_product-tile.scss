@@ -1,4 +1,72 @@
 .product-tile {
+  font-size: 24px;
+  text-align: center;
+
+  &-a {
+    display: block;
+  }
+
+  &-title {
+    font-weight: 300;
+    margin: 18px 0 12px 0;
+  }
+
+  &-title span:first-child {
+    color: $black;
+    font-weight: 500;
+  }
+
+  &-title:nth-child(2) {
+    font-weight: 500;
+    color: $gray-primary;
+  }
+
+  &-subtitle {
+    font-weight: 300;
+    line-height: 22px;
+    font-size: 18px;
+  }
+
+  &-pricing {
+    margin: 16px 0;
+    font-weight: 300;
+  }
+
+  &-footer {
+    background: none;
+    color: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 12px 24px;
+    font-weight: 400;
+    border-radius: 50%;
+    color: $white;
+
+    > button {
+      background: none;
+      color: $brand-primary;
+      transition: color 0.4s linear, background-color 0.4s linear;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $brand-primary;
+        color: #fff;
+      }
+    }
+  }
+
+  .product-price-regular {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    text-decoration: line-through;
+  }
+
+  .product-price {
+    color: $brand-primary;
+    font-weight: 500;
+  }
+
   &-image {
     position: relative;
 
@@ -10,6 +78,7 @@
       position: absolute;
       top: 16px;
       right: 16px;
+      font-weight: 500;
     }
   }
 }
