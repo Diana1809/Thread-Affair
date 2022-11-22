@@ -151,53 +151,46 @@ export default function FooterPrimary() {
         </ul>
       </nav>
 
-      <div className="footer-wrapper">
-        <nav className="footer-support">
-          <ul>
-            <li>
-              <a href="tel:+07123456" title="Call us">
-                <i className="fa-solid fa-phone"></i>
-                Support
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="/"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Chat"
-              >
-                <i className="fa-regular fa-comments"></i>
-                Chat
-              </a>
-            </li>
-
-            <li>
-              <a href="mailto:office@thread-affair.com">
-                <i className="fa-solid fa-envelope-open-text"></i>
-                Email
-              </a>
-            </li>
-          </ul>
-        </nav>
-
-        <section className="footer-contact">
-          <h1>
-            <span>Thread Affair</span> Milano
-          </h1>
-
-          <p>
-            Largo Augusto 3, Milano, 20122, Milano, IT
-            <a href="tel:0039 02 760 003 66" title="Call us">
-              Tel: 0039 02 760 003 66
+      <nav className="footer-support">
+        <ul>
+          <li>
+            <a href="tel:+07123456" title="Call us">
+              <i className="fa-solid fa-phone"></i>
+              Support
             </a>
-            <a href="mailto:" title="Email us">
-              office@thread-affair.com
+          </li>
+
+          <li>
+            <a href="/" target="_blank" rel="noopener noreferrer" title="Chat">
+              <i className="fa-regular fa-comments"></i>
+              Chat
             </a>
-          </p>
-        </section>
-      </div>
+          </li>
+
+          <li>
+            <a href="mailto:office@thread-affair.com">
+              <i className="fa-solid fa-envelope-open-text"></i>
+              Email
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <section className="footer-contact">
+        <h1>
+          <span>Thread Affair</span> Milano
+        </h1>
+
+        <p>
+          Largo Augusto 3, Milano, 20122, Milano, IT
+          <a href="tel:0039 02 760 003 66" title="Call us">
+            Tel: 0039 02 760 003 66
+          </a>
+          <a href="mailto:" title="Email us">
+            office@thread-affair.com
+          </a>
+        </p>
+      </section>
     </div>
   );
 }
